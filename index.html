@@ -14,7 +14,7 @@
 <body>
     <header class="header">
        <a href="#" class="logo">Portfolio</a>
-
+       
        <i class='bx bx-menu' id="menu-icon"></i>
 
        <nav class="navbar">
@@ -31,18 +31,18 @@
             <h3>Hello, it's Me</h3>
             <h1>Shrikrishna Channawar</h1>
             <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>Hey there this is my presonal portfolio website.
-            <br>In this website you see my work and can contect me.</p>
+            <p>Hey there! This is my personal portfolio website.
+            <br>In this website you see my work and can contact me.</p>
 
              <div class="social-media">
-                <a href="https://www.linkedin.com/in/shrikrishna-channawar-55062a22b/"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/shrikrishnachannawar"><i class='bx bxl-github'></i></a>
-                <a href="https://www.instagram.com/channawarshrikrishna/"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://twitter.com/home"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/shrikrishna-channawar-55062a22b/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/shrikrishnachannawar" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/channawarshrikrishna/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class='bx bxl-twitter'></i></a>
                 <a href="#"><i class='bx bxl-facebook' ></i></a>
                
              </div>
-             <a href="/images/_krishna-resume.pdf" class="btn">Download Resume</a>
+             <a href="/images/_krishna-resume.pdf" target="_blank" class="btn" download>Download Resume</a>
         </div>
 
         <div class="home-img">
@@ -61,11 +61,17 @@
         <div class="about-contant">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Data Analyst</h3>
-            <p>Passionate college student from Dr.D.Y.Patil Institute of Management & Reaseach,Pune. 
-                 Pursuing B.E in Artificial Intelligence and Data Science and have experience in front-end development, machine learning, 
-               and data analysis. Active member of technical club called Novus Neurons, seeking to blend creativity and innovation to solve real-world challenges. 
-               Committed to continuous learning and growth."</p>
-            <a href="#" class="btn">Read More</a>    
+            <p>Passionate college student from Dr.D.Y.Patil Institute of Engineering Management & Reaseach,Pune. 
+                 Pursuing B.E in Artificial Intelligence and Data Science and have experience in machine learning, data analysis 
+               and front-end development.  I am Technical Associative in Artificial Intelligencea Student Association and Tecnical Coordinator in technical club called Novus Neurons , seeking to blend creativity and innovation to solve real-world challenges. 
+               Committed to continuous learning and growth. <span id="dots">...</span> <span id="more"><br>Dedicated to translating intricate concepts into user-friendly designs and leveraging 
+                data-driven insights to derive meaningful solutions. Excited to collaborate across disciplines, driven by curiosity and a determination to make a
+                 positive impact. Eager to contribute my skills and enthusiasm to forward-thinking projects
+                <br>I have also done Some certification from google in data analysis and ux design.
+                   I have also completed Machine Learning and Data Sceince course from udemy.
+                    </span></p>
+
+            <button class="btn" id="btn" onclick="MoreLess()">Read More</button>
         </div>
     </section>
 
@@ -81,7 +87,7 @@
                 <h3>Data Analyst</h3>
                 <p>I can provide the Data Preprocessing, Data Modeling.
                    I have done 2 to 3 Projects in Machine Learning.</p>
-                <a href="#" class="btn">Read More</a>    
+                <button class="btn" id="btn" onclick="MoreLess()">Read More</button>    
             </div>
 
             <div class="services-box">
@@ -90,7 +96,7 @@
                 <p>I can Provide the FrontEnd for website using HTML,CSS and Java-Script.
                     I have also done some project on Frontend Development. 
                 </p>
-                <a href="#" class="btn">Read More</a>    
+                <button class="btn" id="button" onclick="MoreLess()">Read More</button>    
             </div>
         </div>
     </section>
@@ -105,9 +111,9 @@
                 <img src="images/portfolio1.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Machine Learning</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    <br>Dolore, id? Quod cum porro sapiente ab fugiat totam!</p>
-                    <a href="https://github.com/shrikrishnachannawar/Dog-breed-identification"><i class='bx bx-link-external' ></i></a>
+                    <p>Dog-Breed-identification-model
+                    <br>Made this model using TensorFLow Libraries for more info you can use my below link</p>
+                    <a href="https://github.com/shrikrishnachannawar/Dog-breed-identification" target="_blank"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
 
@@ -115,9 +121,9 @@
                 <img src="images/portfolio2.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Machine Learning</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    <br>Dolore, id? Quod cum porro sapiente ab fugiat totam!</p>
-                    <a href="https://github.com/shrikrishnachannawar/Bulldozer-price-prediction-model"><i class='bx bx-link-external' ></i></a>
+                    <p>Bulldozer-price-prediction-model
+                    <br>Made this model using Sklearn Libraries for more info you can use my below link </p>
+                    <a href="https://github.com/shrikrishnachannawar/Bulldozer-price-prediction-model" target="_blank"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
 
@@ -125,9 +131,9 @@
                 <img src="images/portfolio3.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Machine Learning</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    <br>Dolore, id? Quod cum porro sapiente ab fugiat totam!</p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <p>Heart-Disease-prediction-model 
+                    <br>Made this model using Sklearn Libraries for more info you can use my below link</p>
+                    <a href="https://github.com/shrikrishnachannawar/Heart-Disease-prediction-model"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
 

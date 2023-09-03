@@ -59,5 +59,20 @@ ScrollReveal({
         loop:true
     });
 
+    function MoreLess(){
+        var dots=document.getElementById("dots");
+        var moretext=document.getElementById("more");
+        var btntext=document.getElementById("btn")
+        if(dots.style.display!='none'){
+            dots.style.display='none';
+            moretext.style.display="inline";
+            btntext.innerHTML="Read Less";
+        }
 
+        else{
+            dots.style.display='inline';
+            moretext.style.display="none" ;
+            btntext.innerHTML="Read More";
+        }
+    }
   
