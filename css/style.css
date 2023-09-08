@@ -444,7 +444,7 @@ body
     }
 }
 
-@media(max-width:786px){
+@media(max-width:768px){
     #menu-icon{
         display: block;
     }
@@ -452,6 +452,7 @@ body
     .navbar{
         position: absolute;
         top: 100%;
+        left: 0;
         width: 100%;
         padding: 1rem 3%;
         background:var(--bg-color) ;
@@ -513,6 +514,29 @@ body
     .portfolio-container{
         grid-template-columns: 1fr;
     }
+
+    .home img {
+        height: 30rem;
+        width: 30rem;
+        margin-bottom: 10px;
+    }
+
+    .about img {
+        height: 28rem;
+        width: 28rem;
+        margin-bottom: 30px;
+    }
+
+    .services {
+        padding-bottom: 900px ;
+        
+    }
+
+.about {
+    height: 100%;
+}
+    
+
 }
 
 @media (max-width:450px){
@@ -520,7 +544,13 @@ body
         font-size: 50%;
     }
 
+    .home img {
+        height: 10px;
+    }
+
     .contact from .input-box input{
         width: 100%;
     }
 }
+
+@media (max-width:375px){}
